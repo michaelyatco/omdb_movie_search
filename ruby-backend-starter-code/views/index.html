@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shmancy Movies</title>
+        <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />
+        <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="/js/application.js"></script>
+  </head>
+  <body>
+    <div class="main-container container">
+        <h1>Movie Search</h1>
+      <form method="get" action="#" id="movie-search-form" class="movie-search-form">
+        <div class="form-group">
+          <label for="movie-search-query">Search Movies: </label>
+          <input type="text" class="form-control" id="movie-search-query" name="query" placeholder="" />
+        </div>
+        <div class="form-group">
+          <input type="submit" class="btn btn-default btn-primary" value="Find Movie" />
+        </div>
+      </form>
+      <div id="search-results" class="results">
+        <ul id="search-results-list">
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
